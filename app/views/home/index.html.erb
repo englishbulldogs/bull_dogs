@@ -12,9 +12,10 @@
                 </article>
                 <article class="body-img">
                     <header>
+                        <%= image_tag(@rand.picture, :class => "back-img") %>
                         <section class="body-img-desc">
                             <div class="desc-text">
-                                <h1></h1>
+                                <h1><%= @randalbum.title %></h1>
                             </div>
                         </section>
                     </header>
