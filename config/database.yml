@@ -8,6 +8,8 @@ development:
   database: development
   pool: 5
   timeout: 5000
+  username: bull-dogs
+  password: uYz%C@-heroku
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -17,9 +19,13 @@ test:
   database: test
   pool: 5
   timeout: 5000
+  username: bull-dogs
+  password: uYz%C@-heroku
 
 production:
   adapter: postgresql
   database: production
   pool: 5
   timeout: 5000
+  username: bull-dogs
+  password: uYz%C@-heroku
