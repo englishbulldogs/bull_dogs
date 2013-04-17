@@ -1,7 +1,7 @@
 require 'bundler/capistrano'
 
 set :default_environment, {
-  "PATH" => "~/.gems/bin:/usr/lib/ruby/gems/1.8/bin/:/usr/local/bin:/usr/bin:/bin:"
+  "GEM_HOME" => "/home3/englisj6/ruby/gems"
 }
 
 # set :shell, "/bin/bash"
