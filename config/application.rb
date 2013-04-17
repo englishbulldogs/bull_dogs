@@ -60,7 +60,7 @@ module Admin
     config.assets.compile = true
 
     config.assets.precompile += ["*.css"]
-    config.assets.precompile += ["*.js"]
+    config.assets.precompile += ["*"]
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
