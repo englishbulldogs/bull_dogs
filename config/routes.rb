@@ -26,6 +26,7 @@ Admin::Application.routes.draw do
   resources :home
   resources :dogs, :only => [:index]
   resources :about, :only => [:index]
+  resources :fact, :only => [:index]
   resources :contact, :only => [:new, :create]
   match "contact#new" => "contact#index", :as => "contact"
   match 'contact' => 'contact#new', :as => 'contact', :via => :get

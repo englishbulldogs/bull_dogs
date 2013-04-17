@@ -1,0 +1,46 @@
+/* line 1, fact.css.scss */
+.fact_menu {
+  color: #f15a24 !important;
+}
+
+/* line 4, fact.css.scss */
+.content {
+  margin: 0;
+}
+
+/* line 7, fact.css.scss */
+p {
+  text-align: center;
+}
+
+/* line 10, fact.css.scss */
+h1 {
+  margin: 3% 0 3% 0;
+  font-size: 1.5em;
+  font-family: Arvo, sans-serif;
+}
+
+/* line 15, fact.css.scss */
+.article {
+  float: left;
+  width: 69.5%;
+  font-size: 1.2em;
+  font-family: 'Proxima Nova';
+  color: #333333;
+}
+/* line 21, fact.css.scss */
+.article section {
+  padding: 8%;
+}
+/* line 24, fact.css.scss */
+.article h1 {
+  margin-top: 0;
+  text-align: center;
+  color: #F15A24;
+}
+
+/* line 30, fact.css.scss */
+.article {
+  width: 100%;
+  border-bottom: 2px solid #ececec;
+}
