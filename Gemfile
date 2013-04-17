@@ -26,7 +26,6 @@ gem 'jquery-rails'
 gem 'modernizr-rails'
 gem 'best_in_place'
 gem 'carrierwave'
-gem 'capistrano'
 #gem 'jquery-fileupload-rails'
 
 

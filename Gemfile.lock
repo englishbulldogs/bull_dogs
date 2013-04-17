@@ -34,12 +34,6 @@ GEM
       jquery-rails
       rails (~> 3.1)
     builder (3.0.4)
-    capistrano (2.14.2)
-      highline
-      net-scp (>= 1.0.0)
-      net-sftp (>= 2.0.0)
-      net-ssh (>= 2.0.14)
-      net-ssh-gateway (>= 1.1.0)
     carrierwave (0.8.0)
       activemodel (>= 3.2.0)
       activesupport (>= 3.2.0)
@@ -53,7 +47,6 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
-    highline (1.6.18)
     hike (1.2.2)
     i18n (0.6.4)
     journey (1.0.4)
@@ -68,13 +61,6 @@ GEM
     mime-types (1.22)
     modernizr-rails (2.6.2.1)
     multi_json (1.7.2)
-    net-scp (1.1.0)
-      net-ssh (>= 2.6.5)
-    net-sftp (2.1.1)
-      net-ssh (>= 2.6.5)
-    net-ssh (2.6.7)
-    net-ssh-gateway (1.2.0)
-      net-ssh (>= 2.6.5)
     polyglot (0.3.3)
     rack (1.4.5)
     rack-cache (1.2)
@@ -128,7 +114,6 @@ PLATFORMS
 DEPENDENCIES
   bcrypt-ruby
   best_in_place
-  capistrano
   carrierwave
   coffee-rails (~> 3.2.1)
   jquery-rails
