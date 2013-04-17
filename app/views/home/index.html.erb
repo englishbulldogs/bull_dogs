@@ -12,7 +12,7 @@
                 </article>
                 <article class="body-img">
                     <header>
-                        <% if @rand.picture.blank? %>
+                        <% if Album.images.blank? %>
                             <%= image_tag("no_img-01.png", :class => "back-img") %>
                         <% else %>
                             <%= image_tag(@rand.picture, :class => "back-img") %>
