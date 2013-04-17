@@ -1,0 +1,20 @@
+<% content_for :stylesheets do %>
+  <%= stylesheet_link_tag 'admin/edit' %>
+<% end %>
+<% content_for :menu do %>
+  <li class="menu_item active-menu"><%=link_to 'manage albums', admin_albums_path%></li>
+<% end %>
+<%= link_to "< Cancel", admin_album_images_path(@album), :id => "return_link" %> </br>
+<%= form_for [@album, @image], :url => {:controller => "images", :action => "update_form"} , :method => "put" do |f| %>
+<%= f.label :title, "More Details Title" %>
+<%= f.text_field :title, :class => "input" %>
+</br>
+<%= f.label :description, "Details" %>
+<%= f.text_area :description, :rows => 4, :class => "input" %>
+</br>
+<%= image_tag @image.picture, :width => "200px" %>
+</br>
+<%= f.file_field :picture %>
+</br>
+<%= f.submit "Update" %>
+<% end %>

@@ -1,0 +1,42 @@
+<% content_for :stylesheets do %>
+	<%= stylesheet_link_tag 'admin/images' %>
+<% end %>
+<% content_for :menu do %>
+	<li class="menu_item active-menu"><%=link_to 'manage albums', admin_albums_path%></li>
+	<li class="menu_item"><%= link_to "Add Images", {:controller => "images", :action => "new"}, :class => "highlight_menu"%> </li>
+<% end %>
+<%= link_to "< Back", admin_albums_path, :id => "return_link" %> </br>
+<h1 class="section-title"> <strong style="font-weight: 600;"><%=best_in_place [:admin,@album], :title, :ok_button => :confirm %></strong></h1>
+<h4 class="album-desc"><%= best_in_place [:admin,@album], :description, :ok_button => :confirm%></h4>
+<% if !@images.blank? %>
+	<% @images.each do |image| %>
+	<div class="item">
+		<div class="image-box">
+			<div class="source">
+				<%= link_to image_tag( image.picture), admin_album_image_path(@album,image) %>
+			</div>
+		</div>
+		<div class="info">
+			<div class="title">
+				<%= best_in_place [:admin, @album, image], :title, :ok_button => :confirm%>
+			</div>
+			<div class="item-links">
+				<%= link_to "Edit", edit_admin_album_image_path(@album, image.id), :id => "edit"%>
+				<%= link_to "Delete", 
+					admin_album_image_path(@album, image.id),
+					:class => "item-link delete-image",
+					:method => :delete, 
+					:remote => true,
+					:confirm => "Are you sure?" %>
+			</div>	
+			<div class="description clearfix">
+				<p>
+					<%= best_in_place [:admin, @album, image], :description, :type => :input, :ok_button => :confirm %>
+				</p>
+			</div>
+		</div>
+	</div>
+	<% end %>
+<% else %>
+	<p class="alert">No images in this album</p>
+<% end %>

@@ -1,0 +1,28 @@
+                    <% content_for :stylesheets do %>
+                        <%= stylesheet_link_tag 'dogs' %>
+                    <% end %>
+                    <article class="dogs article">
+                        <h1 class="title">Our Dogs</h1>
+                        <% if !@albums.blank? %>
+                        <% @albums.each do |album| %>
+                        <section>
+                            <article class="entry clearfix">
+                                <h2 class="name"> | <%= album.title %> <span class="male">M</span> </h2>
+                                <h4 class="desc"> - Dam (Mother): <%= album.description %> </h4>
+                                <%= !album.picture.blank? ? image_tag(album.picture, :width => "200px", :class => "mom_dog") : "No Image of the Dam Attached" %>
+                                <% if album.images.exists? %>
+                                        <% album.images.each do |image| %>
+                                <div class="each_dog">
+                                        <%= image_tag image.picture, :height => "150px", :class => "dog" %>
+                                </div>
+                                <% end %>
+                                    <% else %>
+                                        <p class="alert">No images in this album</p>
+                                <% end %>
+                            </article>
+                        </section>
+                        <% end %>
+                        <% else %>
+                            <p class="alert">No albums created</p>
+                        <% end %>
+                    </article>

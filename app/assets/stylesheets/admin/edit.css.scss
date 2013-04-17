@@ -1,0 +1,31 @@
+label, img {
+	float: left;
+	clear: both;
+	color: #9f9f9f;
+}
+img {
+	padding: 0.5%;
+}
+input, label, textarea {
+	color: #2c2c2c;
+	padding: 0.9% 0;
+}
+.input {
+	background: #fff;
+	border: 1px solid #d2d2d2;
+	float: left;
+	clear: both;
+}
+input, textarea {
+	padding: 1em;
+	clear: both;
+	float: left;
+}
+input[type="submit"] {
+	background: #fff;
+	border: 1px solid #d2d2d2;
+}
+input[type="file"] {
+	padding: 0;
+	margin: 1em 0;
+}

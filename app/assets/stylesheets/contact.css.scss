@@ -1,0 +1,76 @@
+.contact_menu {
+	color: #F15A24 !important;
+}
+.orange-btm {
+	position: relative;
+}
+.main-container {
+	margin: 0;
+	padding: 0;
+}
+.form {
+	padding: 0 3em 0 0;
+	float: left;
+	border-right: 1px solid #cccccc; 
+}
+.left {
+	float: left;
+}
+.field {
+	margin: 10px;
+	float: left;
+	clear: both;
+	label {
+		float: left;
+		clear: both;
+		color: #232323;
+		font-family: 'Arvo';
+		font-size: 1.3em;
+	}
+	input {
+		width: 200px;
+	}
+	input, textarea {
+		font-family: 'Open Sans';
+		font-size: 0.7em;
+		padding: 15px;
+		background: #fff;
+		border: 1px solid #cccccc;
+	}
+}
+.submit input {
+	background: #fff;
+	border: 1px solid #cccccc;
+	float: left;
+	font-size: 1em;
+	clear: both;
+	width: auto;
+	-moz-transition: 0.3s all;
+	-webkit-transition: 0.3s all;
+	-o-transition: 0.3s all;
+	transition: 0.3s all;
+	&:hover {
+		background: darken(#fff, 10%);
+	}
+}
+.desc {
+	clear: none;
+}
+.right {
+	float: left;
+	padding: 0 15px;
+}
+.top {
+	padding: 0 0 3em 0;
+}
+.bottom {
+	border-top: 1px solid #cccccc;
+	float: left;
+	clear: both;
+	text-align: center;
+	width: 100%;
+	padding: 3em 0;
+}
+.error_messages {
+	color: red;
+}

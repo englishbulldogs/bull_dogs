@@ -1,0 +1,1338 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"re",
+				"resizebody"
+			],
+			[
+				"resiz",
+				"resizebody"
+			],
+			[
+				"he",
+				"height  (function)"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"tex",
+				"text-align-last"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"ar",
+				"article	Tag"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"inne",
+				"innerWidth  (function)"
+			],
+			[
+				"body",
+				"body-img-desc"
+			],
+			[
+				"boy",
+				"body-img-desc"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"other",
+				"otherdogs"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"pic",
+				"picture"
+			],
+			[
+				"fileup",
+				"fileupload"
+			],
+			[
+				"file",
+				"fileupload"
+			],
+			[
+				"change",
+				"change_table"
+			],
+			[
+				"hidd",
+				"hidden_field"
+			],
+			[
+				"album",
+				"albumcover"
+			],
+			[
+				"albu",
+				"albumcover"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"fla",
+				"flash"
+			],
+			[
+				"ima",
+				"image"
+			],
+			[
+				"admin",
+				"admin_album_image_path"
+			],
+			[
+				"resp",
+				"respond_to"
+			],
+			[
+				"respon",
+				"respond_with"
+			],
+			[
+				"upda",
+				"update_attributes"
+			],
+			[
+				"aj",
+				"ajaxComplete  (function)"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"slide",
+				"slideUp  (function)"
+			],
+			[
+				"flash",
+				"flash_msg"
+			],
+			[
+				"fade",
+				"fadeOut  (function)"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"delete",
+				"delete-album"
+			],
+			[
+				"dele",
+				"delete-album"
+			],
+			[
+				"content",
+				"content_padding"
+			],
+			[
+				"cont",
+				"content_padding"
+			],
+			[
+				"inner",
+				"innerbox_padding"
+			],
+			[
+				"sid",
+				"sidebar_width"
+			],
+			[
+				"page",
+				"page_width"
+			],
+			[
+				"head",
+				"header_height"
+			],
+			[
+				"rela",
+				"relative"
+			],
+			[
+				"ca",
+				"caps"
+			],
+			[
+				"side",
+				"sidebar_content"
+			],
+			[
+				"header",
+				"header_content"
+			],
+			[
+				"admin_al",
+				"admin_album_path"
+			],
+			[
+				"resou",
+				"resource"
+			],
+			[
+				"admin_",
+				"admin_album_images_path"
+			],
+			[
+				"admi",
+				"admin_album_images_path"
+			],
+			[
+				"get",
+				"get_album"
+			],
+			[
+				"find",
+				"find_album"
+			],
+			[
+				"new",
+				"newHTML	newHTML"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"link",
+				"link_to"
+			],
+			[
+				"act",
+				"action"
+			],
+			[
+				"menu",
+				"menu_list"
+			],
+			[
+				"banner",
+				"banner_overlay_desc"
+			],
+			[
+				"ban",
+				"banner_overlay"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"first",
+				"first-child"
+			],
+			[
+				"over",
+				"overlay"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"d_w",
+				"d_width/d_height"
+			],
+			[
+				"img",
+				"img_height"
+			],
+			[
+				"do",
+				"document_height"
+			],
+			[
+				"d_",
+				"d_height"
+			],
+			[
+				"as",
+				"aspect_ratio"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"docum",
+				"document_height"
+			],
+			[
+				"window",
+				"window_width_third"
+			],
+			[
+				"parse",
+				"parseInt  (function)"
+			],
+			[
+				"windo",
+				"window_width"
+			],
+			[
+				"break",
+				"break-word"
+			],
+			[
+				"main",
+				"main_content"
+			],
+			[
+				"basic",
+				"basic#index"
+			],
+			[
+				"name",
+				"namespace"
+			],
+			[
+				"image_",
+				"image_holder"
+			],
+			[
+				"secure",
+				"secure#index"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"root",
+				"root_url"
+			],
+			[
+				"passwo",
+				"password_confirmation"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"sub",
+				"submit-button"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"soci",
+				"social-icon"
+			],
+			[
+				"si",
+				"site-map-link"
+			],
+			[
+				"site",
+				"site-map"
+			],
+			[
+				"su",
+				"submit-button"
+			],
+			[
+				"submi",
+				"submit-container"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"required",
+				"required_message"
+			],
+			[
+				"magin",
+				"margin-right"
+			],
+			[
+				"port",
+				"portfolio"
+			],
+			[
+				"opac",
+				"opacity"
+			],
+			[
+				"smal",
+				"small-caps"
+			],
+			[
+				"vert",
+				"vertical-align"
+			],
+			[
+				"auto",
+				"auto"
+			],
+			[
+				"section",
+				"section_container"
+			],
+			[
+				"Beba",
+				"BebasNeue"
+			],
+			[
+				"widt",
+				"width"
+			],
+			[
+				"backgro",
+				"background"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"ov",
+				"ovy	overflow-y"
+			],
+			[
+				"op",
+				"opacity	opacity"
+			],
+			[
+				"webkit-trans",
+				"webkit-transform"
+			],
+			[
+				"vis",
+				"visible"
+			],
+			[
+				"backgrou",
+				"background"
+			],
+			[
+				"backgroun",
+				"backgrounds"
+			],
+			[
+				"visi",
+				"visibility"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"borde",
+				"border-bottom"
+			],
+			[
+				"bak",
+				"background-position"
+			],
+			[
+				"about-",
+				"about-container"
+			],
+			[
+				"por",
+				"portfolio-container"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 181.0,
+		"selected_items":
+		[
+			[
+				"upgra",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"packa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"brow",
+				"SFTP: Browse Server…"
+			],
+			[
+				"bro",
+				"SFTP: Browse Server…"
+			],
+			[
+				"gist",
+				"Gist: Open Gist in Browser"
+			],
+			[
+				"snipp for",
+				"Snippet: form_tag"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"snipp erb",
+				"Snippet: end (ERB)"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"erb",
+				"Snippet: end (ERB)"
+			],
+			[
+				"br",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"moni",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"can",
+				"SFTP: Cancel Upload"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git ad",
+				"Git: Add..."
+			],
+			[
+				"mon",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"comb",
+				"Sort via CSScomb"
+			],
+			[
+				"opac",
+				"Snippet: opacity:ms"
+			],
+			[
+				"snippet opa",
+				"Snippet: opacity:ie"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"creat",
+				"Gist: Create Public Gist"
+			],
+			[
+				"monit",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"cance",
+				"SFTP: Cancel Upload"
+			],
+			[
+				"cancell",
+				"SFTP: Cancel Upload"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet opac",
+				"Snippet: opacity:ie"
+			],
+			[
+				"snipp op",
+				"Snippet: opacity"
+			],
+			[
+				"ca",
+				"SFTP: Cancel Upload"
+			],
+			[
+				"cane",
+				"SFTP: Cancel Upload"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"git ",
+				"Git: Amend Commit"
+			],
+			[
+				"git push",
+				"Git: Push Current Branch"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"branch",
+				"Git: Change Branch"
+			],
+			[
+				"git",
+				"Git: Quick Commit"
+			],
+			[
+				"bran",
+				"Git: Change Branch"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"git pul",
+				"Git: Pull"
+			],
+			[
+				"git pull",
+				"Git: Pull Current Branch"
+			],
+			[
+				"pul",
+				"Git: Pull Current Branch"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"gits",
+				"Git: Status"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"sftp ca",
+				"SFTP: Cancel Upload"
+			],
+			[
+				"sft",
+				"SFTP: Cancel Upload"
+			],
+			[
+				"sf",
+				"SFTP: Cancel Upload"
+			],
+			[
+				"cancel",
+				"SFTP: Cancel Upload"
+			],
+			[
+				"sftp ",
+				"SFTP: Cancel Upload"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"jquery",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"add rep",
+				"Package Control: Add Repository"
+			],
+			[
+				"wra",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"wrap",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"gis",
+				"Gist: Create Public Gist"
+			],
+			[
+				"amend",
+				"Git: Amend Commit"
+			],
+			[
+				"branc",
+				"Git: Change Branch"
+			],
+			[
+				"pus",
+				"Git: Push Current Branch"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git bra",
+				"Git: Change Branch"
+			],
+			[
+				"git che",
+				"Git: Change Branch"
+			],
+			[
+				"git commit",
+				"Git: Amend Commit"
+			],
+			[
+				"doc",
+				"Snippet: document-ready"
+			],
+			[
+				"docume",
+				"Snippet: document ready (safe)"
+			],
+			[
+				"document",
+				"Snippet: document-ready"
+			],
+			[
+				"snippet doc",
+				"Snippet: document ready - jQuery"
+			],
+			[
+				"jquer s",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"snipp",
+				"Snippet: cssStickyFooter"
+			],
+			[
+				"op",
+				"Gist: Open Gist"
+			],
+			[
+				"open",
+				"Gist: Open Gist"
+			],
+			[
+				"snippcss",
+				"Snippet: cssDefault"
+			],
+			[
+				"prefix",
+				"Preferences: Prefixr Key Bindings – Default"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"edit",
+				"SFTP: Edit Server…"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"s",
+				"SFTP: Browse Server…"
+			],
+			[
+				"ftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"pac en",
+				"Package Control: Enable Package"
+			],
+			[
+				"snippet jquery re",
+				"Snippet: jQuery ready function"
+			],
+			[
+				"jqu",
+				"Snippet: jQuery ready function"
+			],
+			[
+				"prefixe",
+				"Preferences: Prefixr Key Bindings – Default"
+			],
+			[
+				"alignm",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"alignment",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"align",
+				"Preferences: Alignment File Settings – Default"
+			],
+			[
+				"emmet",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"en",
+				"Package Control: Enable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"comment",
+				"Emmet: Toggle Comment"
+			],
+			[
+				"disabl",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"pa",
+				"Package Control: Add Repository"
+			],
+			[
+				"packages",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/derek_duncan/Documents/Websites/Nowata_Bull_Dogs/bull_dogs/css/about.css.scss",
+		"/Users/derek_duncan/Documents/Websites/Nowata_Bull_Dogs/bull_dogs/js/main.js",
+		"/Users/derek_duncan/Documents/Websites/Nowata_Bull_Dogs/bull_dogs/css/general.css.scss",
+		"/Users/derek_duncan/Documents/Websites/Nowata_Bull_Dogs/bull_dogs/css/dogs.css.scss",
+		"/Users/derek_duncan/Documents/Websites/Nowata_Bull_Dogs/bull_dogs/css/home.css.scss",
+		"/Users/derek_duncan/Documents/Websites/Nowata_Bull_Dogs/bull_dogs/dogs/dogs.html.erb",
+		"/Users/derek_duncan/Documents/Websites/Nowata_Bull_Dogs/bull_dogs/dogs/dogs.html",
+		"/Users/derek_duncan/Documents/Websites/Nowata_Bull_Dogs/bull_dogs/css/main.css.scss",
+		"/Users/derek_duncan/Documents/Websites/Nowata_Bull_Dogs/bull_dogs/dogs/about.html",
+		"/var/folders/bx/6z1z5yks56j40v15n43tjh1c0000gn/T/sublime-sftp-browse-1365038368/owasso_bible_new/public_html/templates/lighthouse_j25/css/custom.css",
+		"/Users/derek_duncan/Documents/Websites/Nowata_Bull_Dogs/bull_dogs/css/main.css",
+		"/Users/derek_duncan/Documents/Websites/Nowata_Bull_Dogs/bull_dogs/config.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/db/migrate/20130326205555_change_picture_to_blob.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/views/layouts/application.html.erb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/assets/javascripts/jquery.fileupload.js",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/assets/javascripts/jquery.fileupload-ui.js",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/db/migrate/20130319040930_add_album_cover_field.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/Gemfile",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/db/migrate/20130319031257_remove_album_cover.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/db/migrate/20130319024905_change_album_image_to_images.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/config/application.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/db/migrate/20130319015310_add_album_image_to_images.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/assets/stylesheets/application.css.scss.erb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/assets/stylesheets/application.scss.erb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/assets/stylesheets/application.css.scss",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/assets/stylesheets/admin/dashboard.css.scss.erb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/assets/stylesheets/admin/dashboard.css.scss",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/db/migrate/20130316043623_users.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/db/migrate/20130316043613_images.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/db/migrate/20130316041847_generate_all.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/db/migrate/20130316043606_albums.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/db/migrate/generate_tables.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/uploaders/picture_uploader.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/views/admin/images/show.html.erb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/assets/stylesheets/admin/new.css.scss",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/assets/javascripts/admin/dashboard.js.erb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/controllers/application_controller.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/uploaders/image_uploader.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/db/migrate/20130316032220_rename_imagee.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/db/migrate/20130316031348_rename_image_name.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/views/admin/albums/new.html.erb",
+		"/Users/derek_duncan/Library/Application Support/Sublime Text 2/Packages/User/Gist.sublime-settings",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/views/admin/albums/show.html.erb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/assets/javascripts/application.js",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/views/admin/images/update.html.erb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/views/admin/images/edit.html.erb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/assets/javascripts/admin/images.js.coffee",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/controllers/admin/images_controller.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/assets/javascripts/admin/dashboard.js",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/views/admin/albums/destroy.js.erb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/controllers/admin/albums_controller.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/assets/javascripts/admin/albums.js",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/assets/stylesheets/admin/albums.css.scss",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/assets/stylesheets/admin/destroy.js.erb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/models/image.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/models/album.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/views/admin/images/new.html.erb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/config/routes.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/db/migrate/20130312005119_add_image_idto_images.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/db/migrate/20130313223341_add_album_i_dto_albums.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/views/images/index.html.erb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/views/images/new.html.erb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/db/migrate/20130309184710_remove_image.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/db/schema.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/db/migrate/20130309194153_add_ablumid_to_albums.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/db/migrate/20130309185225_new_table_images.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/views/admin/images/index.html.erb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/helpers/application_helper.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/db/migrate/20130309170401_add_albumid_to_albums.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/db/migrate/20130309040402_remove_filepath_from_album.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/controllers/admin/dashboard_controller.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/db/migrate/20130308184031_create_images.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/db/migrate/20130309022704_add_image_to_album.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/controllers/admin/pictures_controller.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/views/admin/dashboard/index.html.erb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/views/basic/index.html.erb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/db/migrate/20130308025235_create_albums.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/controllers/admin/articles_controller.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/config.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/assets/stylesheets/basic.css.scss",
+		"/Users/derek_duncan/Library/Application Support/Sublime Text 2/Packages/User/rubyerb.sublime-snippet",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/assets/javascripts/albums_home.js",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/controllers/sessions_controller.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/assets/javascripts/albumns_home.js",
+		"/Users/derek_duncan/Library/Application Support/Sublime Text 2/Packages/User/cssDefault.sublime-snippet",
+		"/Users/derek_duncan/Library/Application Support/Sublime Text 2/Packages/User/cssComment.sublime-snippet",
+		"/Users/derek_duncan/Library/Application Support/Sublime Text 2/Packages/User/opacity.sublime-snippet",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/controllers/basic_controller.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/views/basic/index.html",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/assets/stylesheets/config.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/views/secure/index.html.erb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/views/secure/index.html",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/controllers/users_controller.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/views/users/new.html.erb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/views/sessions/new.html.erb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/models/user.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/app/controllers/secure_controller.rb",
+		"/Users/derek_duncan/Documents/Websites/Bud Beverly Photography/admin/public/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/joomla-test/modules/mod_articles_archive/mod_articles_archive.xml",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress-test/wordpress/wp-content/themes/twentytwelve/page-templates/front-page.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress-test/wordpress/wp-content/themes/twentytwelve/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress-test/wordpress/wp-content/themes/twentytwelve/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress-test/wordpress/wp-content/themes/twentytwelve/page-templates/front-page2.php",
+		"/Users/derek_duncan/Documents/Websites/derekduncan.me/sass/works.scss",
+		"/Users/derek_duncan/Documents/Websites/derekduncan.me/index.html",
+		"/Users/derek_duncan/Documents/Websites/derekduncan.me/contact/contact.html",
+		"/Users/derek_duncan/Documents/Websites/derekduncan.me/stylesheets/works.css",
+		"/Users/derek_duncan/Documents/Websites/derekduncan.me/sass/style.scss",
+		"/Users/derek_duncan/Documents/Websites/derekduncan.me/stylesheets/style.css",
+		"/Users/derek_duncan/Documents/Websites/derekduncan.me/sftp-config.json",
+		"/Users/derek_duncan/Documents/Websites/derekduncan.me/sass/home.scss",
+		"/Users/derek_duncan/Documents/Websites/derekduncan.me/stylesheets/home.css",
+		"/Users/derek_duncan/Documents/Websites/derekduncan.me/works/works.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/wordpress-test/wordpress/wp-config.php",
+		"/Users/derek_duncan/Documents/Websites/derekduncan.me/images/blank.jpg",
+		"/var/folders/bx/6z1z5yks56j40v15n43tjh1c0000gn/T/sublime-sftp-browse-1361996885/owasso_bible_new/public_html/templates/lighthouse_j25/css/custom.css",
+		"/var/folders/bx/6z1z5yks56j40v15n43tjh1c0000gn/T/sublime-sftp-browse-1361829239/mapped/public_html/index.html",
+		"/Users/derek_duncan/Downloads/responsive/home.php",
+		"/Users/derek_duncan/Library/Application Support/Sublime Text 2/Packages/User/SFTP.errors.log",
+		"/var/folders/bx/6z1z5yks56j40v15n43tjh1c0000gn/T/sublime-sftp-browse-1360526596/owasso_bible_new/public_html/templates/lighthouse_j25/css/custom.css",
+		"/Users/derek_duncan/Documents/Websites/derekduncan.me/website_redesign/stylesheets/contact.css",
+		"/Users/derek_duncan/Documents/Websites/derekduncan.me/website_redesign/stylesheets/style.css",
+		"/Users/derek_duncan/Documents/Websites/derekduncan.me/website_redesign/sass/style.scss",
+		"/Users/derek_duncan/Documents/Websites/derekduncan.me/website_redesign/sass/contact.scss",
+		"/Users/derek_duncan/Documents/Websites/derekduncan.me/website_redesign/stylesheets/ie.css",
+		"/Users/derek_duncan/Documents/Websites/derekduncan.me/website_redesign/stylesheets/home.css",
+		"/Users/derek_duncan/Documents/Websites/derekduncan.me/website_redesign/sass/home.scss",
+		"/Users/derek_duncan/Documents/Websites/derekduncan.me/website_redesign/sass/ie.scss"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Proxima ",
+			"Proxima Nova",
+			"/img/english-bulldog.jpg",
+			"body-img-desc",
+			"outer",
+			"image",
+			"picture",
+			"image",
+			"picture",
+			"gallery_id",
+			"div",
+			"li",
+			"menu_item",
+			"style=\"background: #e4e4e4; border: 2px solid #c9c9c9; padding:1.5em; font-family: 'Signika Negative'; float: left; margin-right: 1.5em;\"",
+			"1",
+			"Order",
+			"order",
+			"article",
+			"padding",
+			"p",
+			"55",
+			"padding",
+			"title",
+			"name",
+			"articles",
+			"p",
+			"0.5",
+			"5",
+			"<div class=\"overlay\"></div>",
+			"div",
+			"min",
+			"div",
+			"transparent",
+			"document",
+			"span",
+			"text",
+			"color",
+			"1",
+			"span",
+			"div",
+			"images",
+			"opacity: 0;",
+			"width=\"300px\" height=\"500px\"",
+			"<span class=\"border-ov\"></span>",
+			"logo",
+			"250px",
+			"1",
+			"class=\"image-desc\"",
+			"<figcaption>",
+			"figcap",
+			"/p>",
+			"<p",
+			"<p ",
+			"p",
+			"name",
+			"div",
+			"span",
+			"p",
+			"<div class=\"name\">",
+			"text",
+			"auto",
+			"<div class=\"box",
+			"<div ",
+			"<div class=\"clearfix\"></div>",
+			"0.6",
+			"1.5",
+			"1",
+			"p",
+			"absol",
+			"30px",
+			"1",
+			"image",
+			"margin: 5px;",
+			"padding",
+			"padding: 5px;",
+			"padding-left: 0;",
+			"margin",
+			"padding",
+			"height",
+			"ie",
+			"display",
+			"visibility",
+			"out",
+			"5s",
+			"opacity",
+			"p",
+			"\"<\"",
+			"fixed",
+			"height",
+			"heigh",
+			"height",
+			"padding-bottom",
+			"overf",
+			"font",
+			"overflow",
+			"color",
+			"text-",
+			"overflow",
+			"font-family",
+			"autostart",
+			"overflow",
+			"background",
+			"height",
+			"250px",
+			".active",
+			"fly-in",
+			"active",
+			"window",
+			"cursor",
+			"tr",
+			"detect",
+			"h1",
+			"background",
+			"color",
+			"font",
+			"header",
+			"tmd-logo",
+			"tmd-logo-image",
+			"twitter_link",
+			"facebook_link",
+			"theme"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"output.git":
+	{
+		"height": 114.0
+	},
+	"output.sftp":
+	{
+		"height": 114.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"publi",
+				"public/index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

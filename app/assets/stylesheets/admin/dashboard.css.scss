@@ -1,0 +1,112 @@
+// Place all the styles related to the admin/dashboard controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+	background-color: #f3f3f3;
+	font: 1em 'Open Sans';
+	font-weight: 100;
+}
+$color: #fff;
+a {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 1em;
+	color: $color;
+	text-decoration: none;
+	transition: color 0.2s;
+	text-transform: uppercase;
+	-webkit-transition: color 0.2s;
+	-o-transition: color 0.2s;
+	-moz-transition: color 0.2s;
+	&:active {
+		color: #fff;
+	}
+	&:visited {
+		color: $color;
+	}
+	&:hover {
+		color: darken($color, 30%);
+	}
+}
+.header {
+	position: fixed;
+	z-index: 30;
+	width: 100%;
+	background: #fff;
+	/*fonts*/
+}
+.header_content {
+	font-size: 1.05em;
+	display: block;
+	padding: 1.2em;
+	line-height: 0.9em;
+	ul > li {
+		padding: 0 1em 0 1em;
+		float: left;
+		display: block;
+	}
+}
+.page_name {
+	float: left;
+}
+.navbar {
+	float: right;
+	display: inline-block;
+}
+.sidebar {
+	top: 3.5em;
+	bottom: 3.5em;;
+	position: fixed;
+	width: 15em;
+	background: #3476A1;
+	height: 100%;
+}
+.sidebar_content {
+	float: right;
+	margin-top: 2em;
+	padding: 0 2.5em;
+	ul > li {
+		text-align: right;
+		padding: 0.6em;
+	}
+	.active-menu a{
+		color: #fd9320;
+		&:hover {
+			color: darken(#FD9320, 15%);
+		}
+	}
+	.highlight_menu {
+		color: lighten(#FD9320, 25%);
+		&:hover {
+			color: darken($color, 30%);
+		}
+	}
+}
+.content {
+	top: 2em;
+	font: 1em 'Open Sans';
+	left: 15em;
+	padding: 3em;
+	position: relative;
+}
+.flash_msg {
+	width: 100%;
+	padding: 0.5em;
+	background: RGBA(72.00, 206.00, 67.00, 0.5);
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	left: 0;
+	z-index: 40;
+	font-weight: 700;
+	color: #4a0a12;
+}
+.alert {
+	color: #FD9320;
+}
+#return_link {
+	color: #FD9320;
+	&:hover {
+		color: lighten(#FD9320, 20%);
+	}
+}

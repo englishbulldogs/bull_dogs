@@ -1,0 +1,61 @@
+/* line 1, dogs.css.scss */
+.puppies_menu {
+  color: #f15a24 !important;
+}
+
+/* line 4, dogs.css.scss */
+.main-container {
+  padding: 0;
+}
+
+/* line 7, dogs.css.scss */
+.entry {
+  clear: both;
+  border-bottom: 2px solid #d5d5d5;
+  padding: 0 0 2% 0;
+}
+
+/* line 12, dogs.css.scss */
+.title {
+  font-size: 2em;
+  width: 7em;
+  padding: 0 0 2% 0;
+  border-bottom: 2px solid #dfdfdf;
+}
+
+/* line 18, dogs.css.scss */
+.each_dog {
+  margin-left: 30px;
+}
+
+/* line 21, dogs.css.scss */
+.dog {
+  float: left;
+  margin: 10px;
+}
+
+/* line 25, dogs.css.scss */
+.entry img {
+  background: #000000;
+  border: 20px solid #e9e9e9;
+  box-shadow: 0px 0px 0 1px #d2d2d2;
+}
+
+/* line 30, dogs.css.scss */
+.mom_dog {
+  margin: 0 0 1% 0;
+}
+
+/* line 33, dogs.css.scss */
+.name {
+  margin: 0 0 0.5em 0;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+/* line 38, dogs.css.scss */
+.desc {
+  margin: 0 0 10px 10px;
+  position: relative;
+  color: #a2a2a2;
+}

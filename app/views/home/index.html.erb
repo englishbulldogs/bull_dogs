@@ -1,0 +1,66 @@
+                    <% content_for :stylesheets do %>
+                        <%= stylesheet_link_tag 'home' %>
+                    <% end %>
+                <div class="top clearfix">
+                <article class="family">
+                    <section>
+                        <h1><b>Nowata English Bulldogs</b></h1>
+                        <p>
+                            We breed American Kennel Club registered English bulldogs in Nowata, Oklahoma. Our pups come from champion bloodlines from both dam and sire.  Having a small Kennel, we are able to provide the love and attention these special dogs deserve and need.   You can expect 3-4 litters per year and some of the BEST top quality puppies you'll ever find.
+                        </p>
+                    </section>
+                </article>
+                <article class="body-img">
+                    <header>
+                        <%= image_tag(@rand.picture, :class => "back-img") %>
+                        <section class="body-img-desc">
+                            <div class="desc-text">
+                                <h1><%= @randalbum.title %></h1>
+                            </div>
+                        </section>
+                    </header>
+                </article>
+                </div>
+                <div class="content">
+                    <article class="main-article">
+                        <header class="title">
+                            <h1>Important Information</h1>
+                        </header>
+                        <article class="dogs clearfix">
+                            <section class="other-dog">
+                                <div class="small-dog-cont">
+                                    <%= image_tag("/assets/akc.png", :class => "small-dog", :alt => "American Kennel Club English Bull Dogs", :width => "110px") %>
+                                </div>
+                                <h2>American Kennel Club</h2>
+                                <p>Our dogs are part of the American Kennel Club Association.
+                                </p>
+                            </section>
+                            <section class="other-dog">
+                                <div class="small-dog-cont">
+                                    <%= image_tag("family-2.jpeg", :class => "small-dog", :alt => "We are a Family!", :width => "110px") %>
+                                </div>
+                                <h2>Family Owned</h2>
+                                <p>We love our dogs like they are our own!  
+                                </p>
+                            </section>
+                            <section class="other-dog">
+                                <div class="small-dog-cont">
+                                    <%= image_tag("/assets/champ-03.png", :class => "small-dog", :alt => "Champion Bloodline English Bull Dogs", :width => "110px") %>
+                                </div>
+                                <h2>Champion Bloodline</h2>
+                                <p style="font-size: 0.9em; text-align: center; color: #8f8f8f; word-wrap: break-word; width: 200px; margin: 0; line-height: 1em;"><i>PEDIGREE available upon request</i></p>
+                                <p>Our dogs are special because they have champion bloodline in them!
+                                </p>
+                            </section>
+                            <section class="other-dog">
+                                <div class="small-dog-cont">
+                                    <%= link_to image_tag("/assets/Icon-set.png", :class => "small-dog", :alt => "Dog 1", :width => "110px"), contact_path %>
+                                </div>
+                                <h2>Contact</h2>
+                                <p>John & Nancy Partain </br>
+                                    918-273-1027 </br>
+                                    <a href="mailto:nancy.partain@yahoo.com" style="color: #4d91ff; text-decoration: none;" title="Nancy Partain Email Address">nancy.partain@yahoo.com</a>
+                                </p>
+                            </section>
+                        </article>
+                    </article>

@@ -1,0 +1,23 @@
+<% content_for :stylesheets do %>
+  <%= stylesheet_link_tag 'admin/new' %>
+<% end %>
+<% content_for :menu do %>
+  <li class="menu_item active-menu"><%=link_to 'manage albums', admin_albums_path%></li>
+<% end %>
+    <%= link_to "< Cancel", admin_albums_path, :id => "return_link" %> </br>
+      <%= form_for([:admin,@album], :action => "new") do |f| %>
+      <%= f.hidden_field :album_id %>
+  <div class="field">
+    <%= f.label :title, "Puppy Name" %><br />
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :description, "Dam Name" %><br />
+    <%= f.text_field :description %> </br>
+    <%= f.label :picture, "Dam Picture" %> </br>
+    <%= f.file_field :picture %>
+  </div>
+  <div class="actions">
+    <%= f.submit "Create Dog" %>
+  </div>
+<% end %>

@@ -1,0 +1,78 @@
+// Place all the styles related to the admin/images controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.inner-box {
+	width: auto;
+}
+.inner-box a {
+	text-transform: none;
+	color: #3e1d1e;
+		text-transform: none;
+		padding-right: 0.4em;
+		font-weight: 600;
+		&:hover {
+			color: lighten(#3E1D1E, 50%);
+		}
+}
+.section-title {
+	font-size: 1.4em;
+	clear: left;
+	padding: 0 0 0.5em 0;
+}
+.item {
+	margin: 0 1em 1em 0;
+	float: left;
+	background: #fff;
+	width: 16em;
+	a {
+		color: #3e1d1e;
+		text-transform: none;
+		padding-right: 0.4em;
+		font-weight: 600;
+		&:hover {
+			color: lighten(#3E1D1E, 50%);
+		}
+	}
+}
+.info {
+	padding: 0.5em;
+	height: 4.2em;
+}
+.item-links {
+	font-size: 0.83em;
+	float: right;
+	clear: left;
+	line-height: 2.6em;
+}
+.title {
+	display: inline;
+	font-variant: small-caps;
+	font-size: 1.4em;
+}
+.description {
+	font-size: 0.8em;
+	color: #949494;
+	p {
+		float: left;
+	}
+}
+.album-desc {
+	margin-left: 0.5em;
+	font-size: 0.8em;
+	color: #949494;
+	padding-bottom: 0.5em;
+}
+.image-box {
+	background: #000;
+	height: 170px;
+	width: 256px;
+	.source {
+		overflow: hidden;
+		width: auto;
+		margin: 0 auto;
+		height: 100%;
+		img {
+			width: 100%;
+		}
+	}
+}

@@ -1,0 +1,15 @@
+<% content_for :stylesheets do %>
+  <%= stylesheet_link_tag 'admin/new' %>
+<% end %>
+<% content_for :menu do %>
+  <li class="menu_item active-menu"><%=link_to 'manage albums', admin_albums_path%></li>
+<% end %>
+<div class="inner-box clearfix">
+  <%= link_to "< Cancel", admin_albums_path, :id => "return_link" %> </br>
+  <%= form_for([:admin, :album, @image], :html => {:multipart => true}) do |f| %>
+    <%= f.hidden_field :album_id, :value => @album.id %>
+    <%= f.hidden_field :albumcover, :value => false %>
+    <%= f.file_field :picture, :multiple => true %>
+    <%= f.submit "Submit", :class => "submit" %>
+</div>
+<% end %>

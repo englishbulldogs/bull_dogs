@@ -1,0 +1,323 @@
+@font-face {
+  font-family: Arvo;
+  src: url(../fonts/Arvo-Regular.ttf);
+}
+
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+/* line 13, general.css.scss */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+
+/* line 17, general.css.scss */
+body {
+  font-size: 100%;
+  line-height: 1.4;
+}
+
+/* line 22, general.css.scss */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 27, general.css.scss */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 32, general.css.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 41, general.css.scss */
+img {
+  vertical-align: middle;
+}
+
+/* line 45, general.css.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 51, general.css.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 55, general.css.scss */
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/* line 65, general.css.scss */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+
+/* line 72, general.css.scss */
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+
+/* line 79, general.css.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 84, general.css.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* line 96, general.css.scss */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 105, general.css.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 110, general.css.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 115, general.css.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 119, general.css.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+@media print {
+  /* line 128, general.css.scss */
+  * {
+    background: transparent !important;
+    color: black !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  /* line 136, general.css.scss */
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 140, general.css.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 144, general.css.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 150, general.css.scss */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 155, general.css.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999999;
+    page-break-inside: avoid;
+  }
+
+  /* line 160, general.css.scss */
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  }
+
+  /* line 165, general.css.scss */
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  /* line 169, general.css.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 179, general.css.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 185, general.css.scss */
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+/* ====== CSS Styles ==================================================
+   ========================================================================== */
+/* line 193, general.css.scss */
+body {
+  font: 16px/26px "Open Sans", Helvetica, Arial;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* line 199, general.css.scss */
+a {
+  -webkit-transition: color 0.2s ease;
+  -moz-transition: color 0.2s ease;
+  -o-transition: color 0.2s ease;
+  -ms-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+
+/* line 206, general.css.scss */
+h1 {
+  font-family: 'Arvo';
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+/* line 211, general.css.scss */
+.all-container {
+  height: 100%;
+}
+
+/* line 214, general.css.scss */
+.orange {
+  height: 5px;
+  width: 100%;
+  background: #F15A24;
+  top: 0;
+  position: relative;
+}
+
+/* line 221, general.css.scss */
+.orange-btm {
+  height: 5px;
+  width: 100%;
+  background: #F15A24;
+  position: absolute;
+}
+
+/* line 227, general.css.scss */
+.wrapper {
+  width: 75%;
+  margin: 0 12.5%;
+}
+
+/* line 231, general.css.scss */
+.header-container {
+  padding: 1.5% 0 1.5% 0;
+  width: 100%;
+  background-color: #ffffff;
+  display: block;
+  position: relative;
+  border-bottom: 3px solid #f0f0f0;
+}
+
+/* line 239, general.css.scss */
+.logo {
+  height: 5em;
+  width: auto;
+  float: left;
+  padding: 0 6.5%;
+}
+
+/* line 245, general.css.scss */
+.menu {
+  float: right;
+  font-family: "Arvo", sans-serif;
+}
+/* line 248, general.css.scss */
+.menu .menu-link {
+  float: left;
+  display: block;
+  margin: 10px;
+  font-size: 1.1em;
+}
+/* line 253, general.css.scss */
+.menu .menu-link a {
+  text-decoration: none;
+  color: #000000;
+}
+/* line 256, general.css.scss */
+.menu .menu-link a:hover {
+  color: #F15A24;
+}
+
+/* line 262, general.css.scss */
+.main-container {
+  padding: 4% 0;
+  height: 100%;
+  background: url("/assets/paper_fibers.png") repeat;
+}
+
+/* line 267, general.css.scss */
+.content {
+  margin: 4% 0;
+}

@@ -1,0 +1,7 @@
+<% content_for :stylesheets do %>
+  <%= stylesheet_link_tag 'admin/dashboard' %>
+<% end %>
+<% content_for :menu do %>
+  <li class="menu_item active-menu"><%=link_to 'manage albums', admin_albums_path%></li>
+<% end %>
+Inner Box content

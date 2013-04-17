@@ -1,0 +1,48 @@
+<% content_for :stylesheets do %>
+	<%= stylesheet_link_tag "contact" %>
+<% end %>
+<div class="all clearfix">
+<div class="top clearfix">
+<div class="form clearfix">
+<%= form_for @message, :url => contact_path, :class => "clearfix" do |f|%>
+<% if @message.errors.any? %>
+    <div class="error_messages clearfix">
+      <h2>Form is invalid</h2>
+      <ul>
+        <% for message in @message.errors.full_messages %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+	<div class="left clearfix">
+		<div class="field clearfix">
+			<%= f.label :name, "Name" %>
+			<%= f.text_field :name, :placeholder => "Your Name" %>
+		</div>
+		<div class="field clearfix">
+			<%= f.label :email, "Email" %>
+			<%= f.text_field :email, :placeholder => "myemail@something.com" %>
+		</div>
+	</div>
+	<div class="field clearfix desc">
+		<%= f.label :body, "Description" %>
+		<%= f.text_area :body, :rows => "6", :placeholder => "A brief description of your thoughts!" %>
+	</div>
+	<div class="field submit clearfix">
+		<%= f.submit "Send" %>
+	</div>
+	<% end %>
+</div>
+<div class="right clearfix">
+	<h1>Contact Information</h1>
+	<p>John & Nancy Partain </br>
+      918-273-1027 </br>
+      <a href="mailto:nancy.partain@yahoo.com" style="color: #4d91ff; text-decoration: none;" title="Nancy Partain Email Address">nancy.partain@yahoo.com</a>
+</div>
+</div>
+<div class="bottom clearfix">
+	<h1>Make a Payment</h1>
+	<i>Coming soon!</i>
+</div>
+</div>

@@ -1,0 +1,100 @@
+/* line 4, images.css.scss */
+.inner-box {
+  width: auto;
+}
+
+/* line 7, images.css.scss */
+.inner-box a {
+  text-transform: none;
+  color: #3e1d1e;
+  text-transform: none;
+  padding-right: 0.4em;
+  font-weight: 600;
+}
+/* line 13, images.css.scss */
+.inner-box a:hover {
+  color: #cb8f91;
+}
+
+/* line 17, images.css.scss */
+.section-title {
+  font-size: 1.4em;
+  clear: left;
+  padding: 0 0 0.5em 0;
+}
+
+/* line 22, images.css.scss */
+.item {
+  margin: 0 1em 1em 0;
+  float: left;
+  background: #fff;
+  width: 16em;
+}
+/* line 27, images.css.scss */
+.item a {
+  color: #3e1d1e;
+  text-transform: none;
+  padding-right: 0.4em;
+  font-weight: 600;
+}
+/* line 32, images.css.scss */
+.item a:hover {
+  color: #cb8f91;
+}
+
+/* line 37, images.css.scss */
+.info {
+  padding: 0.5em;
+  height: 4.2em;
+}
+
+/* line 41, images.css.scss */
+.item-links {
+  font-size: 0.83em;
+  float: right;
+  clear: left;
+  line-height: 2.6em;
+}
+
+/* line 47, images.css.scss */
+.title {
+  display: inline;
+  font-variant: small-caps;
+  font-size: 1.4em;
+}
+
+/* line 52, images.css.scss */
+.description {
+  font-size: 0.8em;
+  color: #949494;
+}
+/* line 55, images.css.scss */
+.description p {
+  float: left;
+}
+
+/* line 59, images.css.scss */
+.album-desc {
+  margin-left: 0.5em;
+  font-size: 0.8em;
+  color: #949494;
+  padding-bottom: 0.5em;
+}
+
+/* line 65, images.css.scss */
+.image-box {
+  background: #000;
+  height: 170px;
+  width: 256px;
+}
+/* line 69, images.css.scss */
+.image-box .source {
+  overflow: hidden;
+  width: auto;
+  margin: 0 auto;
+  height: 100%;
+}
+/* line 74, images.css.scss */
+.image-box .source img {
+  width: 100%;
+}

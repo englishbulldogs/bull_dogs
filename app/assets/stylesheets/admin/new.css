@@ -1,0 +1,71 @@
+/* line 1, new.css.scss */
+.field input, .field textarea {
+  background: #fff;
+  border: none;
+  padding: 1em;
+  width: 30em;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+/* line 10, new.css.scss */
+.field input:hover, .field textarea:hover {
+  cursor: pointer;
+  background: #fafafa;
+}
+
+/* line 15, new.css.scss */
+.field label {
+  float: left;
+  color: #2a2a2a;
+  font-variant: small-caps;
+}
+
+/* line 20, new.css.scss */
+.actions input {
+  background: #fff;
+  padding: 0.5em;
+  border: none;
+  font: 0.8em "Open Sans";
+  font-variant: small-caps;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+/* line 30, new.css.scss */
+.actions input:hover {
+  cursor: pointer;
+  background: #fafafa;
+}
+
+/* line 35, new.css.scss */
+.new_image {
+  margin: 2% 0;
+}
+
+/* line 38, new.css.scss */
+#image_picture {
+  float: left;
+}
+
+/* line 41, new.css.scss */
+.submit {
+  float: left;
+  clear: both;
+  position: relative;
+  margin: 2% 0;
+  background: #ffffff;
+  border: 1px solid #dfdfdf;
+  cursor: pointer;
+  padding: 0.7em;
+  transition: 0.3s background;
+  -webkit-transition: 0.3s background;
+  -o-transition: 0.3s background;
+  -moz-transition: 0.3s background;
+}
+/* line 54, new.css.scss */
+.submit:hover {
+  background: #f8f8f8;
+}

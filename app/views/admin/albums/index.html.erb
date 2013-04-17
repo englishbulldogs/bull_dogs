@@ -1,0 +1,42 @@
+<% content_for :stylesheets do %>
+	<%= stylesheet_link_tag 'admin/albums' %>
+<% end %>
+<% content_for :menu do %>
+	<li class="menu_item active-menu"><%=link_to 'manage albums', admin_albums_path%></li>
+	<li class="menu_item"><%=link_to "New Dog", :controller => "albums", :action => "new" %></li>
+<% end %>
+<h1 class="section-title"><strong style="font-weight: 600;">Dogs</strong></h1>
+<% if !@albums.blank? %>
+<% @albums.each do |album| %>
+<div class="item">
+	<div class="image-box">
+		<%= image_tag album.picture, :class => "source", :alt => album.title %>
+	</div>	
+	<div class="info">
+		<div class="title">
+			<%= album.title %>
+		</div>
+		<div class="item-links">
+			<%= link_to "Show", admin_album_images_path(album), :class => "item-link" %>
+			<%= link_to "Edit", 
+				edit_admin_album_path(album), 
+				:method => :get,
+				:class => "item-link" %>
+			<%= link_to "Delete", 
+				admin_album_path(album), 
+				:method => :delete, 
+				:remote => true, 
+				:confirm => "Are you sure?", 
+				:class => "item-link delete-album" %>
+		</div>	
+		<div class="description clearfix">
+			<p>
+				<%= truncate(album.description, :length => 40) %>
+			</p>
+		</div>
+	</div>
+</div>
+<% end %>
+<% else %>
+	<p class="alert">No albums created</p>
+<% end %>
