@@ -79,6 +79,5 @@ module Admin
       :host => "derekduncan.me"
     }
 
-    config.force_ssl = false
   end
 end
