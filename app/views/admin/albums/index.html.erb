@@ -10,7 +10,7 @@
 <% @albums.each do |album| %>
 <div class="item">
 	<div class="image-box">
-		 
+		 <%= image_tag(album.picture, :class => "source", :alt => album.title) if album.picture? %>
 	</div>	
 	<div class="info">
 		<div class="title">
