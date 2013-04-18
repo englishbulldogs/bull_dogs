@@ -1,6 +1,6 @@
 class ContactMailer < ActionMailer::Base
   default :from => "noreply@youdomain.dev"
-  default :to => "mail@derekduncan.me"
+  default :to => "mail-spam@derekduncan.me"
   
   def new_message(message)
     @message = message
