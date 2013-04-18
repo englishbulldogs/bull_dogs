@@ -78,5 +78,7 @@ module Admin
     config.action_mailer.default_url_options = {
       :host => "derekduncan.me"
     }
+
+    config.force_ssl = false
   end
 end
