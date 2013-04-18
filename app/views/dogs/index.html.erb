@@ -17,12 +17,12 @@
                                     <% else %>
                                         <p class="alert">No images in this album</p>
                                 <% end %>
-                                <div class="parents">
-                                    <div class="each">
+                                <div class="parents clearfix">
+                                    <div class="each clearfix">
                                         <h4 class="desc"> - Damsel (Mother): <%= album.description if album.description? %> </h4>
                                         <%= !album.picture.blank? ? image_tag(album.picture, :width => "200px", :class => "mom_dog") : "No Image of the Damsel Attached" %>
                                     </div>
-                                    <div class="each">
+                                    <div class="each clearfix">
                                         <h4 class="desc"> - Sire (Father): <%= album.dad if album.dad? %> </h4>
                                         <%= !album.dadpic.blank? ? image_tag(album.dadpic, :width => "200px", :class => "mom_dog") : "No Image of the Sire Attached" %>
                                     </div>
