@@ -1,7 +1,9 @@
 class HomeController < ApplicationController
 	layout 'application'
 	def index
-		@randalbum = Album.first(:order => "RANDOM()")
-		@rand = @randalbum.images.first(:order => "RANDOM()")
+		offset = rand(Album.count)
+		@randalbum = Album.first(:offset => offset)
+		offset2 = rand(@randalbum.images.count)
+		@rand = @randalbum.images.first(:offset => offset2)
 	end
 end
