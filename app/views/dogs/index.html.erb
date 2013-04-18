@@ -7,13 +7,13 @@
                         <% @albums.each do |album| %>
                         <section>
                             <article class="entry clearfix">
-                                <h2 class="name"> | <%= album.title %> <span class="male">M</span> </h2>
-                                <h4 class="desc"> - Dam (Mother): <%= album.description %> </h4>
+                                <h2 class="name"> | <%= album.title if album.title? %></h2>
+                                <h4 class="desc"> - Dam (Mother): <%= album.description if album.description? %> </h4>
                                 <%= !album.picture.blank? ? image_tag(album.picture, :width => "200px", :class => "mom_dog") : "No Image of the Dam Attached" %>
                                 <% if album.images.exists? %>
                                         <% album.images.each do |image| %>
                                 <div class="each_dog">
-                                        <%= image_tag image.picture, :height => "150px", :class => "dog" %>
+                                        <%= image_tag image.picture, :height => "150px", :class => "dog" if image.picture? %>
                                 </div>
                                 <% end %>
                                     <% else %>
