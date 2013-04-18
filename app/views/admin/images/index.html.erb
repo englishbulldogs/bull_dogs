@@ -13,7 +13,7 @@
 	<div class="item">
 		<div class="image-box">
 			<div class="source">
-				<%= link_to image_tag( image.picture), admin_album_image_path(@album,image) %>
+				<%= link_to image_tag( image.picture) if image.picture?, admin_album_image_path(@album,image) %>
 			</div>
 		</div>
 		<div class="info">
