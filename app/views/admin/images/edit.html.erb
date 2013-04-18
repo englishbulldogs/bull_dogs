@@ -12,7 +12,7 @@
 <%= f.label :description, "Details" %>
 <%= f.text_area :description, :rows => 4, :class => "input" %>
 </br>
-<%= image_tag @image.picture, :width => "200px" %>
+<%= image_tag @image.picture if @image.picture?, :width => "200px" %>
 </br>
 <%= f.file_field :picture %>
 </br>
