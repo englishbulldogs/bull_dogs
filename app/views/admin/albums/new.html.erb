@@ -9,13 +9,19 @@
       <%= f.hidden_field :album_id %>
   <div class="field">
     <%= f.label :title, "Puppy Name" %><br />
-    <%= f.text_field :title %>
+    <%= f.text_field :title %> </br>
+    <%= f.label :price, "Puppy Price" %><br />
+    <%= f.text_field :price %> </br>
   </div>
   <div class="field">
-    <%= f.label :description, "Dam Name" %><br />
+    <%= f.label :description, "Damsel Name" %><br />
     <%= f.text_field :description %> </br>
-    <%= f.label :picture, "Dam Picture" %> </br>
-    <%= f.file_field :picture %>
+    <%= f.label :picture, "Damsel Picture" %> </br>
+    <%= f.file_field :picture %></br>
+    <%= f.label :dad, "Sire Name" %><br />
+    <%= f.text_field :dad %> </br>
+    <%= f.label :picture, "Sire Picture" %> </br>
+    <%= f.file_field :dadpic %>
   </div>
   <div class="actions">
     <%= f.submit "Create Dog" %>

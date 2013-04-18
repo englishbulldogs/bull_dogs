@@ -15,8 +15,17 @@
 	padding: 0 0 2% 0;
 	border-bottom: 2px solid #dfdfdf;
 }
-.each_dog {
+.parents {
+	float: left;
+	clear: both;
 	margin-left: 30px;
+}
+.each {
+	margin-top: 1%;
+	float: left;
+	img {
+		margin: 10px;
+	}
 }
 .dog {
 	float: left;

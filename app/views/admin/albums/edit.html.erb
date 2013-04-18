@@ -10,11 +10,22 @@
   <%= f.label :title, "Dog Name" %>
   <%= f.text_field :title, :class => "input" %>
 </br>
-	<%= f.label :description, "Dam Name" %>
+  <%= f.label :price, "Puppy Price" %>
+  <%= f.text_field :price %> 
+</br>
+	<%= f.label :description, "Damsel Name" %>
 	<%= f.text_field :description, :rows => 4, :class => "input" %>
 </br>
   <%= image_tag @album.picture, :width => "200px" if @album.picture? %> </br>
+  <%= f.label :picture, "Damsel Picture" %> </br>
 	<%= f.file_field :picture, :class => "input" %>
 </br>
+  <%= f.label :dad, "Sire Name" %>
+  <%= f.text_field :dad %> 
+</br>
+  <%= image_tag @album.dadpic, :width => "200px" if @album.dadpic? %>
+  <%= f.label :dadpic, "Sire Picture" %> 
+  <%= f.file_field :dadpic %>
+</br> 
   <%= f.submit "Update" %>
 <% end %>

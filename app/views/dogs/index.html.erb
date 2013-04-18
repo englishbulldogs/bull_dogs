@@ -7,9 +7,7 @@
                         <% @albums.each do |album| %>
                         <section>
                             <article class="entry clearfix">
-                                <h2 class="name"> | <%= album.title if album.title? %></h2>
-                                <h4 class="desc"> - Dam (Mother): <%= album.description if album.description? %> </h4>
-                                <%= !album.picture.blank? ? image_tag(album.picture, :width => "200px", :class => "mom_dog") : "No Image of the Dam Attached" %>
+                                <h2 class="name"> | <%= album.title if album.title? %> <span style="font-size: 0.6em; "><i><%= album.price if album.price? %></i></span></h2>
                                 <% if album.images.exists? %>
                                         <% album.images.each do |image| %>
                                 <div class="each_dog">
@@ -19,6 +17,16 @@
                                     <% else %>
                                         <p class="alert">No images in this album</p>
                                 <% end %>
+                                <div class="parents">
+                                    <div class="each">
+                                        <h4 class="desc"> - Damsel (Mother): <%= album.description if album.description? %> </h4>
+                                        <%= !album.picture.blank? ? image_tag(album.picture, :width => "200px", :class => "mom_dog") : "No Image of the Damsel Attached" %>
+                                    </div>
+                                    <div class="each">
+                                        <h4 class="desc"> - Sire (Father): <%= album.dad if album.dad? %> </h4>
+                                        <%= !album.dadpic.blank? ? image_tag(album.dadpic, :width => "200px", :class => "mom_dog") : "No Image of the Sire Attached" %>
+                                    </div>
+                                </div>
                             </article>
                         </section>
                         <% end %>

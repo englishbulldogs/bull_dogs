@@ -65,19 +65,19 @@ module Admin
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
 
-    # config.action_mailer.smtp_settings = {
-    #   :address              => "smtp.gmail.com",
-    #   :port                 => 587,
-    #   :domain               => "derekduncan.me",
-    #   :user_name            => "mail@derekduncan.me",
-    #   :password             => "uYz%C@-mail",
-    #   :authentication       => :plain,
-    #   :enable_starttls_auto => true
-    # }
+    config.action_mailer.smtp_settings = {
+      :address              => "smtp.gmail.com",
+      :port                 => 587,
+      :domain               => "derekduncan.me",
+      :user_name            => "mail@derekduncan.me",
+      :password             => "uYz%C@-mail",
+      :authentication       => :plain,
+      :enable_starttls_auto => true
+    }
 
-    # config.action_mailer.default_url_options = {
-    #   :host => "derekduncan.me"
-    # }
+    config.action_mailer.default_url_options = {
+      :host => "derekduncan.me"
+    }
 
   end
 end
