@@ -13,7 +13,7 @@
 	<%= f.label :description, "Dam Name" %>
 	<%= f.text_field :description, :rows => 4, :class => "input" %>
 </br>
-  <%= image_tag @album.picture, :width => "200px" %> </br>
+  <%= image_tag @album.picture, :width => "200px" if @album.picture? %> </br>
 	<%= f.file_field :picture, :class => "input" %>
 </br>
   <%= f.submit "Update" %>
