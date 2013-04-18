@@ -14,7 +14,7 @@
 	</div>	
 	<div class="info">
 		<div class="title">
-			<%= album.title %>
+			<%= album.title if album.title? %>
 		</div>
 		<div class="item-links">
 			<%= link_to "Show", admin_album_images_path(album), :class => "item-link" %>
