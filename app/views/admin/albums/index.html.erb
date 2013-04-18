@@ -6,7 +6,7 @@
 	<li class="menu_item"><%=link_to "New Dog", :controller => "albums", :action => "new" %></li>
 <% end %>
 <h1 class="section-title"><strong style="font-weight: 600;">Dogs</strong></h1>
-<% if !@albums.exists? %>
+<% if !@albums.blank? %>
 <% @albums.each do |album| %>
 <div class="item">
 	<div class="image-box">
