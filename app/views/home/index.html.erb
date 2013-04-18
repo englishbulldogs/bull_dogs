@@ -12,10 +12,10 @@
                 </article>
                 <article class="body-img">
                     <header>
-                            <%= !@randalbum.nil? ? image_tag(@randimg, :class => "back-img") : "no images" %>
+                            <%= image_tag(@randalbum.images.offset(rand(@randalbum.images.count)).first.picture, :class => "back-img") if !@randalbum.nil? %>
                         <section class="body-img-desc">
                             <div class="desc-text">
-                                <h1><%= @randalbum.title if !@randalbum.nil? %></h1>
+                                
                             </div>
                         </section>
                     </header>
