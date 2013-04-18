@@ -6,11 +6,11 @@
 	<li class="menu_item"><%=link_to "New Dog", :controller => "albums", :action => "new" %></li>
 <% end %>
 <h1 class="section-title"><strong style="font-weight: 600;">Dogs</strong></h1>
-<% if !@albums.blank? %>
+<% if !@albums.exists? %>
 <% @albums.each do |album| %>
 <div class="item">
 	<div class="image-box">
-		<%= image_tag album.picture, :class => "source", :alt => album.title %>
+		 <%= album.picture.exists? ? image_tag(album.picture, :class => "source", :alt => album.title) : image_tag('no_img-01.png', :class => "source") %>
 	</div>	
 	<div class="info">
 		<div class="title">

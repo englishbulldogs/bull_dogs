@@ -28,6 +28,7 @@ gem 'jquery-rails'
 gem 'modernizr-rails'
 gem 'best_in_place'
 gem 'carrierwave'
+gem 'fog'
 #gem 'jquery-fileupload-rails'
 
 
