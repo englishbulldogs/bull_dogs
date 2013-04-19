@@ -12,12 +12,11 @@
                 </article>
                 <article class="body-img">
                     <header>
-                            <%= image_tag(@randalbum.images.offset(rand(@randalbum.images.count)).first.picture, :class => "back-img") if !@randalbum.nil? %>
-                        <section class="body-img-desc">
+                            <%= image_tag(@randalbum.images.offset(rand(@randalbum.images.count)).first.picture, :class => "back-img") if !@randalbum.blank? %>
+                        <!-- <section class="body-img-desc">
                             <div class="desc-text">
-                                
                             </div>
-                        </section>
+                        </section> -->
                     </header>
                 </article>
                 </div>

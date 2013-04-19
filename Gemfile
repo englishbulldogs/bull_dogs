@@ -27,6 +27,10 @@ end
 gem 'jquery-rails'
 gem 'modernizr-rails'
 gem 'best_in_place'
+
+# gem 'imagemagick'
+
+# gem 'carrierwave-processing'
 gem 'carrierwave'
 gem 'fog'
 #gem 'jquery-fileupload-rails'
