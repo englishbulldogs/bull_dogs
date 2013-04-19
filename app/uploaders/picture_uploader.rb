@@ -1,8 +1,6 @@
 # encoding: utf-8
 
 class PictureUploader < CarrierWave::Uploader::Base
-  include CarrierWave::ImageMagick
-  include CarrierWave::Processing::ImageMagick
   # Include RMagick or MiniMagick support:
   # include CarrierWave::RMagick
   # include CarrierWave::MiniMagick
@@ -13,7 +11,7 @@ class PictureUploader < CarrierWave::Uploader::Base
 
   # Choose what kind of storage to use for this uploader:
   storage :fog
-  process :quality => 90
+  # process :quality => 90
   # storage :fog
 
   # Override the directory where uploaded files will be stored.
