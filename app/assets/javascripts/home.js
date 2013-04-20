@@ -24,7 +24,14 @@ $(function() {
 			$(img).css('left', 0);
 		}
 		*/
-		$(img).css({'top': - img.height()/5});
+		if ((img).css('height') < $('.body-img').css('height')) {
+			$(img).css({'top': - img.height()/5});
+		}
 	});
-	$('.main-article').css({'width': $('.other-dog').outerWidth() * $('.other-dog').size(), 'margin': "0 auto"});
+	if ($(window).width() >= '460') {
+		$('.main-article').css({'width': $('.other-dog').outerWidth() * $('.other-dog').size(), 'margin': "0 auto"});
+	}
+	else {
+		$('.main-article').css({'width':'auto'});
+	}
 });
