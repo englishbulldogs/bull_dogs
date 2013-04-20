@@ -1,1 +1,0 @@
-$(function(){$("#albumcover_tag").bind("click",function(){$.ajax({url:"",data:$("#albumcover_tag").val()}).success(function(){alert("success")})})});
