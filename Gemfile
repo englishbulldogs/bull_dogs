@@ -28,7 +28,8 @@ gem 'jquery-rails'
 gem 'modernizr-rails'
 gem 'best_in_place'
 
-# gem 'imagemagick'
+gem 'imagemagick'
+gem 'rmagik'
 
 # gem 'carrierwave-processing'
 gem 'carrierwave'
