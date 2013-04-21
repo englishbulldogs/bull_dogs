@@ -13,7 +13,7 @@ class AlbumUploader < CarrierWave::Uploader::Base
 
   # Choose what kind of storage to use for this uploader:
   storage :fog
-  process :quality => 8
+  process :quality => 12
   # storage :fog
 
   # Override the directory where uploaded files will be stored.
