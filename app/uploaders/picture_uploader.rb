@@ -14,7 +14,7 @@ class PictureUploader < CarrierWave::Uploader::Base
   # Choose what kind of storage to use for this uploader:
   storage :fog
 
-  process :quality => 90
+  process :quality => 1
   # process :quality => 90
   # storage :fog
 
